@@ -1,7 +1,7 @@
 import express, { Request, Response, Application, NextFunction } from "express";
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import Router from './routes/router'
+import Router from './src/routes/router'
 
 // Define CORS options
 const corsOptions = {

@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "rewrites": [{ "source": "(.*)", "destination": "/api" }],
-  "outputDirectory": "dist",
-  "routes": [
-    {
-      "dist": "/(.*)",
-      "dest": "/"
-    }
-  ]
+  "rewrites": [{ "source": "/src(.*)", "destination": "/api" }],
+  "outputDirectory": "dist"
 }
